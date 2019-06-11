@@ -18,7 +18,7 @@ class Student
       CRATE TABLE students(
         id Integer PRIMARY KEY,
         name TEXT,
-        grade TEXT)
+        grade TEXT);
       end
      SQL
     DB[:conn].execute(sql)
